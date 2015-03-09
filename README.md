@@ -2,6 +2,7 @@ README  ===>  DEKMA BOOKSHOP | Books for your life
 
 Introduction------
 
+This project is done as the first year web project with a group of 4 members.
 This web site enhances bookstore's availability to many users in sri lanka.
 This web site enables the users to view what's new on the book store,customize your own cart and buy them,search the books on your taste from the book store,comment on your favourite
 book and many more cool features.And all these operations can be done without stepping to the bookstore.
