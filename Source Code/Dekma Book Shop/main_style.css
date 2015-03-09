@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+#content {
+	background-color: #F00;
+	position: absolute;
+	left: 262px;
+	top: 541px;
+	width: 655px;
+	height: 586px;
+}
+#page{
+	background-image:url(themes-vista-green-gallery.jpg);
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	position:absolute;
+	left: 28px;
+	top: 20px;
+	width: 952px;
+	height: 1164px;
+	border: none;
+	border-radius:20px;
+}
+#logo {
+	border-bottom:2px solid #2992ff;
+	floa:right;
+	position: absolute;
+	left: 7px;
+	top: 3px;
+	width: 939px;
+	height: 171px;
+}
+  #logboxe {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+	border:2px solid #2992ff;
+	border-radius:15px;
+	position: absolute;
+	left: 612px;
+	top: 5px;
+	width: 314px;
+	height: 152px;
+}
+  #maintool {
+	opacity:0.7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	color: #000;
+	border:2px solid #2992ff;
+    border-radius:50px;
+	transition-property: background;
+	transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+	-webkit-transition-property: background;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+	-o-transition-property: background;
+	-o-transition-property: color;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: ease;
+	
+	
+	
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	left: 174px;
+	top: 271px;
+ }
+ #maintool:hover {
+	opacity:1.0;
+	 color:#0000cc;
+	 
+ }
+
+  #image {
+	/*opacity:1.0;
+	/*background-image:url(book-dominoes-orig-image-.jpg);*/
+	position:absolute;
+	left: 0px;
+	top: 263px;
+	width: 952px;
+	height: 254px;
+	border-top:2px solid #2992ff;
+	border-bottom:2px solid #2992ff;
+	/*border-radius:25px;*/
+	/*box-shadow: 10px 10px 5px #888888;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-o-box-shadow: 10px 10px 5px #888888;*/
+	overflow:hidden;
+  }
+ #image IMG {
+	position:absolute;
+	top:2;
+    left:0
+    z-index:8;
+	opacity:0.0;
+  }
+
+ #image IMG.active {
+    z-index:10;
+    opacity:1.0;
+ }
+
+ #image IMG.last-active {
+    z-index:9;
+  }
+
+ #login {
+	text-align:center;
+	border-radius:10px;
+	position:absolute;
+	float:left;
+	width:100px;
+	height:25px;
+	background: -moz-linear-gradient(top, #3366cc, #33ffff); 
+	background:-webkit-linear-gradient(top, #3366cc, #33ffff); 
+	background:-o-linear-gradient(top, #3366cc, #33ffff);
+	left:4px;
+	top:4px;
+	-moz-transition:width 2s, height 2s, -moz-transform 2s;
+	-webkit-transition:width 5s, height 5s, -webkit-transform 5s;
+	-o-transition:width 2s, height 2s, -o-transform 2s;
+ }
+
+ #login:hover {
+	 text-align:center;
+	  border-radius:12px;
+      width:306px;
+      height:144px;
+     
+	   background:-moz-linear-gradient(top,#06c,#fff);
+	   background:-webkit-linear-gradient(top,#06c,#fff);
+	   background:-o-linear-gradient(top,#06c,#fff);
+    
+   }
+ #register {
+	text-align:center;
+	border-radius:10px;
+	position:absolute;
+	float:left;
+	width:100px;
+	height:25px;
+	background: -moz-linear-gradient(top, #3366cc, #33ffff); 
+	background:-webkit-linear-gradient(top, #3366cc, #33ffff); 
+	background:-o-linear-gradient(top, #3366cc, #33ffff);
+	left: 118px;
+	top: 4px;
+ }
+  #logo_image {
+    opacity:1;
+	border-radius:50px;  
+	position: absolute;
+	left: 5px;
+	width: 580px;
+	height: 162px;
+	top: 5px;
+}
+
+          /*-----Home page style------*/ 
+#add {
+	font-family: "Monotype Corsiva";
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	text-align:center;
+	position: absolute;
+	height: 583px;
+	width: 220px;
+	left: 32px;
+	top: 543px;
+	border:2px solid #2992ff;
+	border-radius:20px;
+	box-shadow: 10px 10px 5px #888888;
+	background:-moz-linear-gradient(top,#E1F0FF,#D5FAB4);
+	background:-webkit-linear-gradient(top,#E1F0FF,#D5FAB4);
+	background:-o-linear-gradient(top,#E1F0FF,#D5FAB4);
+	
+}
+  
+  #home_booksbox {
+	font-family: "Monotype Corsiva";
+	font-size: 16px;
+	color: #000;
+	background:-moz-linear-gradient(top,#E1F0FF,#D5FAB4);
+	background:-webkit-linear-gradient(top,#E1F0FF,#D5FAB4);
+	background:-o-linear-gradient(top,#E1F0FF,#D5FAB4);
+	border:2px solid #2992ff;
+	border-radius:20px;
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+	height: 583px;
+	width: 659px;
+	left: 264px;
+	top: 542px;
+	overflow-y:scroll;
+}
+
+  #book_image {
+	opacity:0.8;
+	width:77px;
+	height:100px;
+	-moz-transition:width 0.5s, height 0.5s, -moz-transform 0.5s;
+	-webkit-transition:width 0.5s, height 0.5s, -moz-transform 0.5s;
+	-o-transition:width 0.5s, height 0.5s, -moz-transform 0.5s;
+}
+  #book_image:hover {
+	  opacity:1.0;
+	  width:95px;
+	  height:132px;
+  }
+ 
+ 
+  #book_name {font-family: "Monotype Corsiva"; font-size: 16px; text-align: center;}
+ 
+
+  
+  
